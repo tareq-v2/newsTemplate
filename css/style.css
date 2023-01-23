@@ -17,3 +17,14 @@
 ul{
     list-style: none;
 }
+#divide_sec{
+    background-color:orangered !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    border-top: 1px solid rgb(177, 177, 237);
+    border-bottom: 1px solid rgb(145, 145, 195);
+}
+#divide_sec h4{
+    color: orangered;
+}
