@@ -6,6 +6,36 @@ and (max-device-width : 480px) {
         height: 316px;
         width: 200px;
     }
+    #img1{
+        width: 100%;
+    }
+    #clock_icon{
+        padding: 0 !important;
+    }
+    .myImage{
+        height: 316px;
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+    #img2{
+        height: 316px;
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+    #sub_cat{
+        display: flex; 
+        flex-direction: column; 
+        justify-content: space-between;
+    }
+    #buttons{
+        width: 100%; 
+    }   
+    #img3{
+        width: 100%;
+    }
+    .news{
+        margin-bottom: 5px;
+    }
 }
 
 @media only screen
@@ -46,8 +76,11 @@ and (orientation : portrait) {
 }
 
 @media only screen
-and (min-width : 1224px) {
-
+and (min-device-width : 569px)
+and (max-device-width : 767px) {
+    #img1{
+        width: 100% !important;
+    }
 }
 
 @media only screen

@@ -9,6 +9,9 @@ $main-color: orangered;
     box-sizing: border-box;
     ul{
         list-style: none;
+        li{
+            cursor: pointer;
+        }
     }
     #top_nav{
         display: flex;
@@ -27,6 +30,46 @@ $main-color: orangered;
         flex-direction: row;
         justify-content: space-evenly;
         padding: 10px 0;
+    }
+    #sub_cat{
+        display: flex; 
+        flex-direction: row; 
+        justify-content: space-between;
+    }
+    #buttons{
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between;
+    }
+    #fly_svg{
+        position: absolute;
+        right: 9%;
+        bottom: 58%;
+        color: $main-color;
+    }
+    #clock_icon{
+        margin-top: 10px;
+    }
+    #clock_icon svg{
+        color: $main-color;
+    }
+    #play_icon{
+        float:right;
+        padding-right: 20px; 
+        margin-top: 5px; 
+        color: #fff;
+    }
+    .newsData{
+        margin-bottom: 4px;
+        border-bottom: 1px soild black !important;
+    }
+    .newsData2{
+        margin-bottom: 6px;
+        border-bottom: 1px soild black !important;
+    }
+    .button{
+        width: 100%;
+        background-color: $main-color;
     }
     
     #divide_sec{

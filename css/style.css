@@ -6,6 +6,9 @@
 * ul {
   list-style: none;
 }
+* ul li {
+  cursor: pointer;
+}
 * #top_nav {
   display: flex;
   justify-items: space-between;
@@ -23,6 +26,46 @@
   flex-direction: row;
   justify-content: space-evenly;
   padding: 10px 0;
+}
+* #sub_cat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+* #buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+* #fly_svg {
+  position: absolute;
+  right: 9%;
+  bottom: 58%;
+  color: orangered;
+}
+* #clock_icon {
+  margin-top: 10px;
+}
+* #clock_icon svg {
+  color: orangered;
+}
+* #play_icon {
+  float: right;
+  padding-right: 20px;
+  margin-top: 5px;
+  color: #fff;
+}
+* .newsData {
+  margin-bottom: 4px;
+  border-bottom: 1px soild black !important;
+}
+* .newsData2 {
+  margin-bottom: 6px;
+  border-bottom: 1px soild black !important;
+}
+* .button {
+  width: 100%;
+  background-color: orangered;
 }
 * #divide_sec {
   background-color: orangered !important;
