@@ -28,3 +28,17 @@ ul{
 #divide_sec h4{
     color: orangered;
 }
+.button {
+    border: none;
+    color: white;
+    padding: 9px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 0;
+    cursor: pointer;
+  }
+  h4{
+    font-family: 'Times New Roman', Times, serif;
+  }
